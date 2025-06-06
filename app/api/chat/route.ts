@@ -202,7 +202,7 @@ const deepResearch = async (
   return accumulatedResearch;
 };
 
-export async function POST(req: Request, query: string) {
+export async function POST(req: Request) {
   const { messages } = await req.json();
 
   const result = streamText({
