@@ -10,7 +10,7 @@ import { z } from 'zod';
 import Exa from 'exa-js';
 
 // Model
-const mainModel = openai('gpt-4o');
+const mainModel = openai('o3-mini');
 // Search Web Function
 const exa = new Exa(process.env.EXA_API_KEY);
 
